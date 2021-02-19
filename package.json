@@ -1,0 +1,20 @@
+{
+  "name": "rescript-dom-tutorial",
+  "version": "0.0.1",
+  "description": "ReScript DOM & Web APIs",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "start": "bsb -make-world -w",
+    "server": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "keywords": [
+    "rescript"
+  ],
+  "author": "Jacob Sherin <jacob@protoship.io>",
+  "license": "CC-BY-4.0",
+  "devDependencies": {
+    "bs-platform": "^8.3.3",
+    "snowpack": "^3.0.11"
+  }
+}
